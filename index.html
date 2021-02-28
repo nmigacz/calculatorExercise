@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator Exercise – Nick Migacz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="header">
+    <h1>Calculator Exercise</h1>
+    <h2>created by Nick Migacz</h2>
+    <p>Enter 2 numbers, choose the operator and click calculate to get a result!</p>
+    </div>
+    <div class="calc">
+        <row>
+            <column>
+                <input id="num1" type="number" name="num1" value="0">
+            </column>
+            <column class="opSelect">
+                <select name="operator" id="opBox">
+                    <option value="add">operator</option>
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="multiply">*</option>
+                    <option value="divide">/</option>
+                </select>
+            </column>
+            <column>
+                <input id="num2" type="number" name="num2" value="0">
+            </column>
+        </row>
+    </div>
+    <div class="submitBtn">
+        <input id="submit" type="submit" value="Calculate">
+    </div>
+    <div class="results">
+        <h2>Results:</h2>
+            <hr>
+    </div>
+</body>
+
+</html>
