@@ -11,6 +11,7 @@
     <h2>created by Nick Migacz</h2>
     <p>Enter 2 numbers, choose the operator and click calculate to get a result!</p>
     </div>
+    <form onsubmit="return Operator()">
     <div class="calc">
         <row>
             <column>
@@ -18,7 +19,7 @@
             </column>
             <column class="opSelect">
                 <select name="operator" id="opBox">
-                    <option value="add">operator</option>
+                    <option value="none">operator</option>
                     <option value="add">+</option>
                     <option value="sub">-</option>
                     <option value="multiply">*</option>
@@ -33,9 +34,15 @@
     <div class="submitBtn">
         <input id="submit" type="submit" value="Calculate">
     </div>
+    </form>
     <div class="results">
         <h2>Results:</h2>
-            <hr>
+        <hr>
+        <div>
+        <table id="table">
+
+        </table>
+    </div>
     </div>
 </body>
 

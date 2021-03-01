@@ -115,4 +115,22 @@ input[type=number] {
       border: none;
       width: 500px;
       height: 2px;
+      margin-bottom: 20px;
+  }
+
+  table{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+  }
+
+  tr{
+    padding: 10px 0;
+  }
+
+  #table p{
+    font-size: 15px;
   }
